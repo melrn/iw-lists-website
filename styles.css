@@ -1,7 +1,7 @@
 body {
     font-family: "Fira Code", monospace;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     background-color: rgb(29, 29, 29);
     color: #FBBA18;
@@ -71,4 +71,8 @@ a:link {
 
 a:visited {
     color: rgb(255, 195, 65);
+}
+
+.sux {
+    color: rgb(29, 29, 29);;
 }
