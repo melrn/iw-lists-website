@@ -1,0 +1,74 @@
+body {
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: rgb(29, 29, 29);
+    color: #FBBA18;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 16px;
+    background-color: rgb(47, 47, 47);
+    font-size: large;
+    color: #FBBA18;
+}
+
+input::placeholder {
+    color: #FBBA18; /* Change this to the desired color */
+    opacity: 0.5; /* Ensure full opacity (optional) */
+  }
+
+table {
+    width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(47, 47, 47);
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+.yes {
+    color: #008000;
+    font-weight: bold;
+}
+
+.no {
+    color: #cc0000;
+    font-weight: bold;
+}
+
+img {
+    width: 100px;
+    position: absolute;
+}
+
+footer {
+    text-align: center;
+    opacity: 85%;
+}
+
+a:link {
+    color: rgb(255, 195, 65);
+}
+
+a:visited {
+    color: rgb(255, 195, 65);
+}
