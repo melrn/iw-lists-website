@@ -5,6 +5,7 @@ body {
     font-style: normal;
     background-color: rgb(29, 29, 29);
     color: #FBBA18;
+    margin: 20px;
 }
 
 h1 {
@@ -23,9 +24,9 @@ input {
 }
 
 input::placeholder {
-    color: #FBBA18; /* Change this to the desired color */
-    opacity: 0.5; /* Ensure full opacity (optional) */
-  }
+    color: #FBBA18;
+    opacity: 0.5;
+}
 
 table {
     width: 100%;
@@ -74,5 +75,29 @@ a:visited {
 }
 
 .sux {
-    color: rgb(29, 29, 29);;
+    color: rgb(29, 29, 29);
+    ;
+}
+
+
+/* Scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(49, 49, 49);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(61, 61, 61);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #FBBA18;
 }
